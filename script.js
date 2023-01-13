@@ -14,7 +14,7 @@ function carregar () {
   min = '0'+ min
   }
   
-  msg.innerHTML = `<p>Agora são <strong>${hora}</strong> horas <strong>${min}</strong> minutos.</p>`
+  msg.innerHTML = `<p>Agora são:</p> <p><strong>${hora}</strong> horas e <strong> ${min}</strong> minutos.</p>`
   
   if (hora >= 0 && hora < 12) {
     msg.innerHTML+='Bom dia!'
